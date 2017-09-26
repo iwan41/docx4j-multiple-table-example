@@ -15,8 +15,8 @@ import java.util.Map;
 public class Start implements CommonTrait
 {
     private static final String TEMPLATE_DOCX = "template.docx";
-    public static final String OUT_GENERATED_DOCX = "/tmp/OUT_generated.docx";
-    public static final int DRIVERS_PER_TABLE = 6;
+    private static final String OUT_GENERATED_DOCX = "/tmp/OUT_generated.docx";
+    private static final int DRIVERS_PER_TABLE = 6;
     private final WordprocessingMLPackage wordMLPackage;
     private final MainDocumentPart documentPart;
 
