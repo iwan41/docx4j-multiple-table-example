@@ -1,0 +1,16 @@
+group 'docs'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.docx4j', name: 'docx4j', version: '3.3.5'
+    compile group: 'com.google.guava', name: 'guava', version: '23.0'
+
+}
